@@ -65,4 +65,10 @@ Aula 50 - Feita
 Aula 51 - Feita
 Aula 52 - Feita
 Aula 53 - Feita
-Aula 54 - 
+Aula 54 - Feita
+Aula 55 - Feita
+Aula 56 - Feita
+Aula 57 - Feita
+Aula 58 - Feita
+Aula 59 - Feita
+Aula 60 - Feita

@@ -72,3 +72,7 @@ Aula 57 - Feita
 Aula 58 - Feita
 Aula 59 - Feita
 Aula 60 - Feita
+Aula 61 - Feita
+Aula 62 - Feita
+Aula 63 - Feita
+Aula 65 - Feita

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Modelo de Caixa</title>
+  	<meta charset="utf-8"/>
+    <style type="text/css">
+      #cabecalho{
+        border: 1px solid red;
+        margin-top: 30px 20px 10px 5px;  /* Espaçamento externo */
+        padding-top: 30px 20px 10px 5px; /* Espaçamento interno */
+      }
+      #noticia{
+        background: gray;
+        padding: 10px;
+      }
+      .titulo{
+        border: 1px solid red;
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body id="cabecalho">
+    <span>Conteudo</span>
+    <!-- Comportamento tipo block -->
+    <div>
+      Conteudo Principal
+    </div>
+    <div id="cabecalho">
+      Conteudo
+    </div>
+    <!-- Comportamento tipo in line -->
+    <span>Conteudo</span>
+
+    <div id="noticia">
+      <h2 class="titulo">
+        40 Anos de "Spinoffs" - NASA Technologies
+        Benefiting Society
+      </h2>
+
+      <p> Texto Texto Texto Texto Texto Texto
+          Texto Texto Texto Texto Texto Texto
+          Texto Texto Texto Texto Texto Texto
+          Texto Texto Texto Texto Texto Texto
+          Texto Texto Texto Texto Texto Texto
+          Texto Texto Texto Texto Texto Texto 
+      <p/>
+
+    </div>
+  </body>
+
+</html>

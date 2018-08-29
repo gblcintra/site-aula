@@ -76,3 +76,19 @@ Aula 61 - Feita
 Aula 62 - Feita
 Aula 63 - Feita
 Aula 65 - Feita
+Aula 66 - Feita
+Aula 67 - Feita
+
+<h2> Aula de HTML 5 </h2>
+Aula 68 - Feita
+Aula 69 - Feita
+Aula 70 - Feita
+Aula 71 - Feita
+Aula 72 - Feita
+Aula 73 - Feita
+Aula 75 - Feita
+Aula 76 - Feita
+Aula 77 - Feita
+Aula 78 - Feita
+Aula 79 - Feita
+Aula 80 - Feita

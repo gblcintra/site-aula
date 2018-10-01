@@ -13,8 +13,57 @@
   border-bottom: 3px solid #fff;
 } */
 
+/* Criar Animações */
+@@keyframes animacao-box{
+  from {
+    background: red;
+    border-radius: 0px;
+  }
+
+  to {
+    background: yellow;
+    border-radius: 100px;
+  }
+}
+
+/* sonbras da box */
 #box{
+  width: 400px;
+  height: 400px;
+  padding: 8px;
+  background: #009670;
+  /* background: linear-gradient(to left, red, yellow); */
+  box-shadow: 10px 4px 2px 2px black;
+}
+#box h1{
+  color: white;
+  font-size: 60px;
+  text-shadow: 10px 10px black; /* Sobra em textos */
+}
+
+#box-animacao{
   width: 300px;
   height: 300px;
-  background: linear-gradient(to left, red, yellow);
+  background: red;
+  position: relative;
+  /* chamando animação */
+  /* animation-name: animacao; */
+  /* animation-duration: 5s; */
+  /* animation-delay: 3s; */
+  /* animation-iteration-count: 2; /*quantas vezes vai se repitir */ */
+  /* animation-direction: alternate; */
+  animation: animacao 5s 3s 2 alternate;
+  ;
+}
+
+/* transicao */
+#box-transicao{
+  width: 300px;
+  height: 300px;
+  background: orange;
+}
+#box-transicao:hover{
+  width: 400px;
+  background: black;
+  transition: all 2s;
 }

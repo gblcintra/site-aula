@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=pt-br dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- chamando JS em um arquivo externo -->
+    <script type="text/javascript">
+      var nome = prompt("Entre com o nome do aluno");
+      var nota= prompt("Entre com a media de aluno "+nome);
+      var faltas= prompt("Entre com a faltas de aluno "+nome);
+      var media = 6;
+      var faltas_l= 15;
+
+      if (nota >= media && faltas <= faltas_l){
+        var texto3 = "Aprovado";
+      }else{
+        var texto3 = "Reprovado";
+      }
+
+    </script>
+
+    <title>Operadores Logicos</title>
+  </head>
+  <body>
+    <h1>Operadores Logicos</h1>
+    <script type="text/javascript">
+      document.write("O aluno " + nome + " com a media " + nota + " e quantidades de faltas "+ faltas + ", esta :");
+      document.write("<br/><br/>");
+      document.write(texto3);
+    </script>
+  </body>
+</html>

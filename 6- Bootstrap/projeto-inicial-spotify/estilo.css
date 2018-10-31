@@ -5,9 +5,17 @@
 */
 
 /* ============================== Layout ================================ */
+html, body, .capa {
+  height: 100%;
+}
+
 
 body{
-  background: blue;
+  background: url('imagens/capa.png'),
+              url('imagens/ruido.png'),
+              linear-gradient(50deg,#ff4169,#7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica,Arial,sans-serif;
 }
 
  /* -- Barra de Navegação -- */
@@ -16,7 +24,6 @@ body{
    width: 132px;
    display: block; /* pq o span é inline e a gnt quer fazer ele ficar block */
    background: url('imagens/spotify.svg') no-repeat;
-   /* border: 1px solid red; */
    background-size: contain; /*ela vai definir que a imagem de fundo tenha o mesmo tamanho do conteudo Spotify*/
    color: transparent;
  }
@@ -45,4 +52,23 @@ body{
   color: #9bf0e3;
 }
 
+/* == Imagem de capa == */
+.capa{
+    display: table; /* deixa o conteudo no centro da tela*/
+    width: 100%; /* deixa o conteudo no centro da tela*/
+}
+
+.texto-capa{
+  text-align: center; /* deixa o conteudo no centro da tela*/
+  color: white;
+  display: table-cell; /* deixa o conteudo no centro da tela*/
+  vertical-align: middle; /* deixa o conteudo no centro da tela*/
+}
+
+
  /* =========================== Tipografia ============================== */
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -0.05em; /*deixa o as letras do texto colado*/
+}

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="imagens/favicon.png">
 
     <title>Música para todos - Spotify</title>
 
@@ -19,8 +20,43 @@
     <![endif]-->
   </head>
   <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente"><!-- Barra de navegação fixada no topo com cor preta"inverse"-->
+      <div class="container">
 
-    
+        <!-- header -->
+        <div class="navbar-header">
+
+          <!-- Botao toggle --> <!-- Botão para dispositivos moveis -->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra-menu">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand"> <!-- classe usada para logo-->
+            <span class="img-logo">Spotify</span>
+          </a>
+
+        </div>
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="barra-menu"> <!-- Menu para dispositivo móvel -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Premium</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Baixar</a></li>
+            <li class="divisor" role="separator"></li>
+            <li><a href="">Inscrever-se</a></li>
+            <li><a href="">Entrar</a></li>
+          </ul>
+        </div>
+
+      </div> <!-- /Container -->
+
+    </nav><!-- /Nav -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -1,0 +1,48 @@
+/*
+*
+* @author Gabriel de Oliveira
+* @version 0.1
+*/
+
+/* ============================== Layout ================================ */
+
+body{
+  background: blue;
+}
+
+ /* -- Barra de Navegação -- */
+ .img-logo{
+   height: 40px;
+   width: 132px;
+   display: block; /* pq o span é inline e a gnt quer fazer ele ficar block */
+   background: url('imagens/spotify.svg') no-repeat;
+   /* border: 1px solid red; */
+   background-size: contain; /*ela vai definir que a imagem de fundo tenha o mesmo tamanho do conteudo Spotify*/
+   color: transparent;
+ }
+
+ nav.navbar-transparente{
+   padding: 15px 0px;
+   background: rgba(0, 0, 0, 0.6);
+   border: none;
+ }
+
+.navbar-brand{
+  padding: 5px 15px;
+}
+
+.divisor{
+  width: 1px;
+  height: 16px;
+  background: white;
+  margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #9bf0e3;
+}
+
+ /* =========================== Tipografia ============================== */

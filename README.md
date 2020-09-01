@@ -1,17 +1,13 @@
 # site-aula
 
-<h2>Aula de HTML</h2>
-<h2>Aula de CSS</h2>
-<h2> Aula de CSS Intermediário</h2>
-<h2> Aula de HTML 5 </h2>
-<h2>Aula de CSS 3</h2>
-1- html
-2- CSS
-3- CSS Intermediario
-4- HTML5
-5- CSS3
-6- Bootstrap
-7- JavaScript
-8 - PHP
-projeto de clone da plataforma twitter em php
+
+<p>1- html</p>
+<p>2- CSS</p>
+<p>3- CSS Intermediario</p>
+<p>4- HTML5</p>
+<p>5- CSS3</p>
+<p>6- Bootstrap</p>
+<p>7- JavaScript</p>
+<p>8 - PHP</p>
+<p>projeto de clone da plataforma twitter em php</p>
 
